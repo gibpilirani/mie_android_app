@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Malawi Institute of Education</string>
+    <string name="mie_website">Website</string>
+    <string name="mie_resources">Resources</string>
+    <string name="settings">Settings</string>
+    <string name="mie_home">Malawi Institute of Education</string>
+    <string name="mie_welcome">Welcome to Malawi Institute of Education</string>
+
+
+    <!--  For home screen button  -->
+    <string name="core_services">Welcome to Malawi Institute of Education. Tap any of the tabs below to view some of the services that Malawi Institute of Education offer tothe public.</string>
+    <string name="curriculum_development">Curriculum Development</string>
+
+    <string name="curriculum_develomentDetails">
+        Curriculum Development
+The Malawi Institute of Education (MIE) is responsible for curriculum development in Malawi. MIE works closely with the Ministry of Education, Science and Technology to develop and review the national curriculum for primary, secondary and teacher education.
+
+\n\nThe process of curriculum development at MIE typically involves several stages, including:
+
+
+\n\nNeeds Assessment: The MIE conducts a needs assessment to identify gaps in the existing
+        curriculum and determine the educational needs of the country.
+\n\nCurriculum Design: Based on the needs assessment, the MIE develops a framework for the curriculum that outlines the goals, objectives, and content of each subject.
+\n\nContent Development: The MIE works with subject experts and educators to develop the content for the curriculum. This includes developing learning materials such as textbooks, lesson plans, and assessment tools.
+\n\nReview and Evaluation: The MIE reviews and evaluates the curriculum to ensure that it aligns with the educational needs of the country, is relevant to learners, and is based on sound educational principles and practices.
+\n\nImplementation: Once the curriculum is developed, the MIE provides training and support to teachers to ensure that they are able to implement the curriculum effectively in the classroom.
+\n\nMonitoring and Evaluation: The MIE monitors and evaluates the implementation of the curriculum to determine its effectiveness and identify areas for improvement.
+\n\nOverall, the curriculum development process at MIE is designed to ensure that the curriculum is relevant, engaging, and effective in preparing learners for the challenges of the future.
+    </string>
+
+    <string name="mie_training">Training</string>
+    <string name="mie_printing">Printing Press</string>
+    <string name="mie_publishing">Publishing</string>
+    <string name="mie_editorial">Editorial</string>
+    <string name="mie_accommodation">Conference Facilities</string>
+    <string name="mie_audioVisual">Audio Visual</string>
+    <string name="mie_metwood">Wood &amp; Metal Work </string>
+    <string name="mie_others">Others</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="resources_fragment">For resources such as source books and others. Requires your suggestion</string>
+    <string name="about_fragment">Fragment About</string>
+    <string name="website_fragment">Fragment Website</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_version">
+        <b>App version: 1.0</b></string>
+    <string name="purpose">
+        This web app is designed to access the MIE website and other related services. It provides
+        a user-friendly interface to navigate through the various features and functionalities.
+        With this web app, users can conveniently access the MIE website and make use of its services.
+        Whether you need to browse information, submit forms, or interact with the different
+        sections of the MIE website, this app simplifies the process and enhances your overall user
+        experience. Enjoy seamless access to the MIE website and its services through this intuitive
+        and efficient web app.\n\n
+    Developed by Gibson Dzimbiri.</string>
+    <string name="developer"></string>
+    <string name="copyright"><b>Copyright Information</b></string>
+
+
+    <!--For copyright information -->
+    <string name="copyright_page">
+        Copyright © 2023 Malawi Institute of Education. All rights reserved.\n\n
+
+        The Malawi Institute of Education (MIE) App is an application that helps you access MIE
+        website and other resources that are relevant to education and trainings.
+        The contents of this application, including but not limited to text, graphics, images,
+        and other materials, are protected by copyright and intellectual property laws. You may
+        not reproduce, distribute, modify, display, or transmit any of the content in this
+        application without prior written consent from MIE. All
+        trademarks, service marks, trade names, logos, and other designations used in this
+        application are the property of their respective owners. Use of any such trademarks,
+        service marks, trade names, logos, or other designations without the prior written
+        consent of the respective owner is strictly prohibited. \n\n
+
+
+        For any inquiries regarding the use of this application or requests for permission to use
+            the content, please contact Malawi Institute of Education at \n\n
+        \t\t&#x2709; <u>ed@mie.edu.mw</u>.\n\n
+        \t\t&#128222; 01 536 263.
+</string>
+</resources>

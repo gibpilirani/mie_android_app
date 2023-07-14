@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Home">
+
+
+        <TextView
+            android:id="@+id/core_services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/screen_background_dark"
+            android:paddingTop="10dp"
+            android:text="@string/core_services"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/cuurriculum_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_bg"
+            android:orientation="vertical"
+            >
+
+            <!-- First LinearLayout content -->
+
+            <ImageView
+                android:id="@+id/image_curriculum"
+                android:layout_width="127dp"
+                android:layout_height="83dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+               android:layout_gravity="center"
+                android:src="@drawable/curriculum"
+                android:contentDescription="@string/curriculum_development"/>
+
+            <TextView
+                android:id="@+id/text_curriculum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/curriculum_development"
+                android:textSize="16sp"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+               />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_training"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_bg"
+            android:orientation="vertical"           >
+
+            <!-- Second LinearLayout content -->
+            <ImageView
+                android:id="@+id/image_training"
+                android:layout_width="127dp"
+                android:layout_height="83dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/training"
+                android:contentDescription="@string/curriculum_development"/>
+
+            <TextView
+                android:id="@+id/text_training"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/mie_training"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:minHeight="48dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_printing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_bg"
+            android:orientation="vertical">
+
+            <!-- First LinearLayout content -->
+            <ImageView
+                android:id="@+id/image_printing"
+                android:layout_width="127dp"
+                android:layout_height="83dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/printing_machine"
+                android:contentDescription="@string/mie_publishing"/>
+
+            <TextView
+                android:id="@+id/text_printing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/mie_printing"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- second row -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_publishing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_bg"
+            android:orientation="vertical">
+
+            <!-- First LinearLayout content -->
+            <ImageView
+                android:id="@+id/image_publishing"
+                android:layout_width="127dp"
+                android:layout_height="83dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/publishing"
+                android:contentDescription="@string/mie_publishing"/>
+
+            <TextView
+                android:id="@+id/mie_publishing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/mie_publishing"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_editorial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_bg"
+            android:orientation="vertical">
+
+            <!-- Second LinearLayout content -->
+            <ImageView
+                android:id="@+id/image_editorial"
+                android:layout_width="127dp"
+                android:layout_height="83dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/editorial_design"
+                android:contentDescription="@string/mie_editorial" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/mie_editorial"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:minHeight="48dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_audioVisual"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_bg">
+
+            <!-- First LinearLayout content -->
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="83dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/multimedia"
+                android:contentDescription="@string/mie_audioVisual"/>
+
+            <TextView
+                android:id="@+id/mie_audioVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/mie_audioVisual"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+        <!-- Third row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            >
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear_metWood"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_bg"
+                android:orientation="vertical">
+
+                <!-- Second LinearLayout content -->
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="83dp"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/wood_work"
+                    android:contentDescription="@string/mie_metwood" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/mie_metwood"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:minHeight="48dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_conferenceFacilities"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_bg"
+                android:orientation="vertical">
+
+                <!-- Second LinearLayout content -->
+                <ImageView
+                    android:id="@+id/image_accommodation"
+                    android:layout_width="127dp"
+                    android:layout_height="83dp"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/conference"
+                    android:contentDescription="@string/mie_accommodation"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/mie_accommodation"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:minHeight="48dp"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_otherServices"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_bg"
+                android:orientation="vertical">
+
+                <!-- Second LinearLayout content -->
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="83dp"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/other"
+                    android:contentDescription="@string/mie_others"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/mie_others"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:minHeight="48dp"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
